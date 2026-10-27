@@ -1,0 +1,42 @@
+{
+  "unit_tests": {
+    "passed": 29,
+    "failed": 0
+  },
+  "full_synthetic_pipeline": {
+    "status": "passed",
+    "classes": 4,
+    "images_per_class": 20,
+    "all_group_indices_identical": true,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "forget_counts": [
+      1,
+      2
+    ],
+    "methods": [
+      "Original",
+      "Retrain",
+      "Ours"
+    ],
+    "result_records": 18,
+    "complete_summary_rows": 6,
+    "stages": [
+      "training",
+      "request_selection",
+      "reference_retraining",
+      "importance",
+      "mask_search",
+      "unlearning",
+      "evaluation",
+      "summary"
+    ]
+  },
+  "full_resisc45_experiment": "not_run",
+  "data_protocol": "all_shared",
+  "importance": "TFIDF_x_PaperCAMRF",
+  "contents": "Source code, requirements, documentation and tests; excludes dataset and trained weights."
+}
